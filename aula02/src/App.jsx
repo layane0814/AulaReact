@@ -4,6 +4,9 @@ import Exemplo1 from "./Exemplo1";
 import Exercicio1 from "./Exercicio1";
 import Exercicio2 from "./Exercicio2";
 import Exercicio3 from "./Exercicio3";
+import Exercicio4 from "./Exercicio4";
+import Exercicio5 from "./Exercicio5";
+import Exercicio6 from "./Exercicio6";
 
 export default function App()
 {
@@ -39,6 +42,28 @@ export default function App()
 
         <Exercicio3 nota1={7.5} nota2={9.5} /> <hr />
         <Exercicio3 nota1={3} nota2={6.5} />
+      </div>
+
+      <div className="card">
+        <h3>Exercício 4</h3>
+
+        <Exercicio4 tipo={"triângulo"} base={10} altura={5} /> <hr />
+        <Exercicio4 tipo={"retângulo"} base={10} altura={5} />
+
+      </div>
+
+      <div className="card">
+        <h3>Exercício 5</h3>
+
+        <Exercicio5 nota1={7.5} nota2={9.5} /> <hr />
+        <Exercicio5 nota1={3} nota2={6.5} />
+      </div>
+
+      <div className="card">
+        <h3>Exercício 6</h3>
+
+        <Exercicio6 nota1={7.5} nota2={9.5} /> <hr />
+        <Exercicio6 nota1={3} nota2={6.5} />
       </div>
 
     </div>
