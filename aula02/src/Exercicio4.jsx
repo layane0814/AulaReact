@@ -6,7 +6,7 @@ export default function Exercicio4( {tipo, base, altura} )
         let area = (Number(base) * Number(altura)) / 2 ;
         return(
             <div>
-                A área do {tipo} com base {base}e altura {altura} é {area}.
+                A área do {tipo} com base {base} e altura {altura} é {area}.
             </div>
         )
     }
@@ -17,7 +17,7 @@ export default function Exercicio4( {tipo, base, altura} )
         let area = Number(base) * Number(altura);
         return(
             <div>
-                A área do {tipo} com base {base}e altura {altura} é {area}.
+                A área do {tipo} com base {base} e altura {altura} é {area}.
             </div>
         )
     }
