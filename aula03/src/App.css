@@ -14,10 +14,10 @@ h1{
 }
 
 .conteudo{
-    margin: 0 auto;
+    margin: 30px auto;
     padding: 30px;
     max-width: 500px;
-    background-color: #ce87ce;
+    background-color: #e8b1e8;
     border-radius: 12px;
     box-shadow: 0 10px 10px gray;
 }
@@ -34,7 +34,7 @@ h1{
 
 .conteudo a
 {
-    color: #630194;
+    color: #9300dc;
     text-decoration: none;
     font-weight: 500;
 }
