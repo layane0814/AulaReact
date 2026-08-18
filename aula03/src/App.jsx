@@ -19,6 +19,15 @@ import Para from "./paginas/Para";
 import Rondonia from "./paginas/Rondonia";
 import Roraima from "./paginas/Roraima";
 import Tocantins from "./paginas/Tocantins";
+import Alagoas from "./paginas/Alagoas";
+import Bahia from "./paginas/Bahia";
+import Ceara from "./paginas/Ceara";
+import Maranhao from "./paginas/Maranhao";
+import Paraiba from "./paginas/Paraiba";
+import Pernambuco from "./paginas/Pernambuco";
+import Piaui from "./paginas/Piaui";
+import RioGrandeNorte from "./paginas/RioGrandeNorte";
+import Sergipe from "./paginas/Sergipe";
 
 
 export default function App()
@@ -50,6 +59,16 @@ export default function App()
       <Route path="/estados/ro" element={<Rondonia />} />
       <Route path="/estados/rr" element={<Roraima />} />
       <Route path="/estados/to" element={<Tocantins />} />
+
+      <Route path="/estados/al" element={<Alagoas />} />
+      <Route path="/estados/ba" element={<Bahia />} />
+      <Route path="/estados/ce" element={<Ceara />} />
+      <Route path="/estados/ma" element={<Maranhao />} />
+      <Route path="/estados/pb" element={<Paraiba />} />
+      <Route path="/estados/pe" element={<Pernambuco />} />
+      <Route path="/estados/pi" element={<Piaui />} />
+      <Route path="/estados/rn" element={<RioGrandeNorte />} />
+      <Route path="/estados/se" element={<Sergipe />} />
 
     </Routes>
    </BrowserRouter>
