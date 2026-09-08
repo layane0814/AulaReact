@@ -45,7 +45,7 @@ input[type=text], input[type=number]
 
 input[type=button]
 {
-    width: 100%;
+    width: 20%;
     padding: 10px;
     margin-right: 10px;
 }

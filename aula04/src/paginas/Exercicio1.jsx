@@ -9,12 +9,12 @@ export default function Exercicio1()
     function calcular()
     {
 
-        let potencia = Number(numero1) ** Number(numero1);
+        let quadrado = Number(numero1) * Number(numero1);
         let cubo = Number(numero1) * Number(numero1) * Number(numero1);
 
         setResultado(
             <div>
-                <p>O quadrado do número {numero1}<sup>2</sup>  = {potencia}</p>
+                <p>O quadrado do número {numero1}<sup>2</sup>  = {quadrado}</p>
                 <p>O cubo de {numero1}<sup>3</sup> = {cubo}</p>
             </div>
         );
